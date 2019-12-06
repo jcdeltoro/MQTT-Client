@@ -3,8 +3,8 @@
 
 #define PIN_POWER1 D6
 
-const char* ssid = "deltoro"; // Enter your WiFi name
-const char* password =  "idiotilla"; // Enter WiFi password
+const char* ssid = "SSID"; // Enter your WiFi name
+const char* password =  "PASSWORD"; // Enter WiFi password
 const char* mqttServer = "192.168.1.102";
 const int mqttPort = 1883;
 const char* mqttUser = "deltoro";
