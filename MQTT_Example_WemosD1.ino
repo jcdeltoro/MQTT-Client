@@ -5,10 +5,10 @@
 
 const char* ssid = "SSID"; // Enter your WiFi name
 const char* password =  "PASSWORD"; // Enter WiFi password
-const char* mqttServer = "192.168.1.102";
+const char* mqttServer = "192.168.1.102";//IP Server MQTT
 const int mqttPort = 1883;
-const char* mqttUser = "deltoro";
-const char* mqttPassword = "idiotilla";
+const char* mqttUser = "USUARIO-MQTT"; //User MQTT
+const char* mqttPassword = "PASSWORD"; //PAsswd MQTT
 
 WiFiClient espClient;
 PubSubClient client(espClient);
